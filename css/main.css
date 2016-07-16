@@ -7,3 +7,31 @@ html {
 *::after {
     box-sizing: inherit;
 }
+
+.container {
+    background: #26c6da;
+    margin: auto;
+    padding: 1em;
+    width: 80%;
+}
+
+.block {
+    background: #ffb74d;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    padding: 1em;
+}
+
+.block:nth-of-type(2) {
+    background: #ff9800;
+}
+
+.block:nth-of-type(3) {
+    background: #ef6c00;
+}
+
+.inline {
+    background: white;
+    border-radius: 2px;
+    padding: 0 0.5em;
+}
